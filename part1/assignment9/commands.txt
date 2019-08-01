@@ -1,0 +1,7 @@
+docker pull devopsdockeruh/ports_exercise
+docker tag devopsdockeruh/ports_exercise ports
+docker run -p 3000:80 ports
+
+IN BROWSER:
+localhost:3000
+=> "Ports configured correctly!!"

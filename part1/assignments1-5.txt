@@ -1,0 +1,41 @@
+Assignment 1.1
+
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                            PORTS                                         NAMES
+57331fe11414        tomcat              "catalina.sh run"        6 minutes ago       Exited (143) About a minute ago                                                 elastic_lumiere
+d73cd87a8247        mysql               "docker-entrypoint.s…"   7 minutes ago       Exited (1) 7 minutes ago                                                        musing_ramanujan
+835617d45a10        cassandra           "docker-entrypoint.s…"   7 minutes ago       Up 7 minutes                      7000-7001/tcp, 7199/tcp, 9042/tcp, 9160/tcp   musing_liskov
+
+============================================
+
+Assignment 1.2.
+
+jarno@jarno-ideacentre-710-25ISH:~$ docker ps -a
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+jarno@jarno-ideacentre-710-25ISH:~$ docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+
+
+===========================================
+Assignment 1.3
+docker run -it devopsdockeruh/pull_exercise
+Give me the password: basics
+You found the correct password. Secret message is:
+"This is the secret message"
+
+=========================================
+Assignment 1.4
+docker run -d devopsdockeruh/exec_bash_exercise
+docker ps
+docker exec 51 sh -c 'tail -f ./logs.txt'
+Secret message is:
+"Docker is easy"
+
+=======================================
+Assignment 1.5
+docker run -it ubuntu:16.04 bash
+apt-get update
+apt-get install curl
+sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+
+	
+

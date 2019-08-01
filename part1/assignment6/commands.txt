@@ -1,0 +1,5 @@
+TO BUILD IMAGE:
+docker build -t docker-clock .
+
+TO RUN CONTAINER:
+docker run docker-clock

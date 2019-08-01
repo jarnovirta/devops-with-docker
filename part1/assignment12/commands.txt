@@ -1,0 +1,7 @@
+(Dockerfiles for front and back in subdirectories)
+
+RUN FRONT (tagged 'front')
+docker run -p 5000:5000 front
+
+RUN BACKEND (tagged backend) 
+docker run -p 8000:8000 -v $(pwd)/logs/logs.txt:/backend/logs.txt backend

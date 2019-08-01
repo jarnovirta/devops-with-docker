@@ -1,0 +1,10 @@
+IN TERMINAL:
+git clone https://github.com/docker-hy/frontend-example-docker
+
+ADD DOCKERFILE TO frontend-example-docker directory
+
+IN frontend-example-docker DIRECTORY:
+docker build -t docker-server .
+
+TO RUN CONTAINER:
+docker run -p 5000:5000 docker-server

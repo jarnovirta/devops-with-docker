@@ -1,0 +1,5 @@
+TO BUILD IMAGE:
+docker build -t curler .
+
+TO RUN CONTAINER:
+docker run -it curler
