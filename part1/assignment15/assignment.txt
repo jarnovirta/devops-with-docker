@@ -1,4 +1,0 @@
-DOCKERHUB LINK:
-https://hub.docker.com/r/jarnovirta/devops-docker
-
-Project contains a README file with installation info.
